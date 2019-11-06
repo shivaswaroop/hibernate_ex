@@ -30,7 +30,7 @@
       <property name="dialct">org.hibernate.dialect.O
       racle10gDialect</property>
       <!-- List of XML mapping files -->
-      <mapping resource = "Employee.hbm.xml"/>
+      <mapping resource = "com/lti/hibernate_ex/hibernate_project/Employee.hbm.xml"/>
       
    </session-factory>
 </hibernate-configuration>
