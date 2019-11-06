@@ -12,7 +12,7 @@ import org.hibernate.cfg.Configuration;
  * Hello world!
  *
  */
-public class App 
+public class HibernateMain
 {
     public static void main( String[] args )
     {
