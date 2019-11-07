@@ -25,7 +25,7 @@
       <property name = "hibernate.connection.password">
          tiger
       </property>
-      <property name="hbm2ddl.auto">create/update</property>
+      <property name="hbm2ddl.auto">create/replace</property>
       <property name="connection.pool_size">1</property>
       <property name="dialct">org.hibernate.dialect.O
       racle10gDialect</property>
