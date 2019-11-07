@@ -9,6 +9,7 @@
 <param name="sequence">emp_seq</param>
 </generator>
 </id>
+<property name="id" column= "id"/>
 <property name="name" column="name"/>
 <property name="branch" column="branch"/>
 </class>

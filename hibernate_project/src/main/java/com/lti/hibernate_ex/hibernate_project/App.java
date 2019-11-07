@@ -17,8 +17,8 @@ public class App
         SessionFactory fact=conf.buildSessionFactory(builder.build());
         Session session=fact.openSession();
         Employee emp=new Employee();
-        //emp.setId(100);
-        emp.setName("name");
+        emp.setId(1);
+        emp.setName("anu");
         emp.setBranch("bangalore");
         session.beginTransaction();
         session.save(emp);
